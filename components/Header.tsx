@@ -5,8 +5,8 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, GraduationCap, Phone, Mail, MapPin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
-
+import getConfig from 'next/config'
+const { basePath } = getConfig()
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -70,7 +70,7 @@ const Header = () => {
               transition={{ type: "spring", stiffness: 300 }}
             >
               <>
-                <Image src={basePath + "/images/input-onlinepngtools.png"} alt="Team Photo" width={50} height={50} />
+                <Image src={"https://sohanpaliyal.github.io/vibrantvalleyhighschool/images/input-onlinepngtools.png"} alt="Team Photo" width={50} height={50} />
               </>
               <div>
                 <h1 className="text-xl font-bold text-vibrant-blue">

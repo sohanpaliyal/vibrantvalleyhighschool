@@ -1,9 +1,11 @@
+/** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  images: {
+    unoptimized: true,
+  },
   basePath: '/vibrantvalleyhighschool',
   assetPrefix: '/vibrantvalleyhighschool/',
-  env: {
-    NEXT_PUBLIC_BASE_PATH: '/vibrantvalleyhighschool',
-  },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
