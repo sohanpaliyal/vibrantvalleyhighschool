@@ -5,8 +5,6 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, GraduationCap, Phone, Mail, MapPin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
-import getConfig from 'next/config'
-const { basePath } = getConfig()
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
