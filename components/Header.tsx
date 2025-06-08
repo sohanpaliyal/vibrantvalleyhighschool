@@ -31,8 +31,8 @@ const Header = () => {
     <>
       {/* Top Bar */}
       <div className="bg-vibrant-blue text-white py-2 px-4 text-sm">
-        <div className="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-4">
-          <div className="flex items-center gap-6">
+        <div className="max-w-7xl mx-auto flex flex-wrap justify-between items-center sm:gap-4 gap-2">
+          <div className="flex sm:items-center sm:gap-6 gap-2 sm:flex-row flex-col items-start">
             <div className="flex items-center gap-2">
               <Phone className="w-4 h-4" />
               <span>+91 98765 43210</span>
@@ -68,9 +68,10 @@ const Header = () => {
               transition={{ type: "spring", stiffness: 300 }}
             >
               <>
-                <Image src={"https://sohanpaliyal.github.io/vibrantvalleyhighschool/images/input-onlinepngtools.png"} alt="Team Photo" width={50} height={50} />
+                <Image
+                  src={"https://sohanpaliyal.github.io/vibrantvalleyhighschool/images/input-onlinepngtools.png"} alt="Team Photo" width={50} height={50} />
               </>
-              <div>
+              <div className='sm:block hidden'>
                 <h1 className="text-xl font-bold text-vibrant-blue">
                   Vibrant Valley High School
                 </h1>

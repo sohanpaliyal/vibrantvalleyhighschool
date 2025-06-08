@@ -122,6 +122,8 @@ const About = () => {
               <Image
                 src="https://images.pexels.com/photos/8471831/pexels-photo-8471831.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
                 alt="School building"
+                // width={500}
+                // height={500}
                 className="w-full h-96 object-cover rounded-2xl shadow-2xl"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-vibrant-blue/20 to-transparent rounded-2xl"></div>

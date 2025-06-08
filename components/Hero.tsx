@@ -134,6 +134,8 @@ const Hero = () => {
                 <Image
                   src="https://images.pexels.com/photos/8471831/pexels-photo-8471831.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
                   alt="Students in classroom"
+                  // width={500}
+                  // height={500}
                   className="w-full h-80 object-cover rounded-xl"
                 />
                 <div className="mt-6 text-center">
