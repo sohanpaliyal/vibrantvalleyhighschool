@@ -4,8 +4,7 @@
     images: {
       unoptimized: true,
     },
-    basePath: '/vibrantvalleyhighschool',
-    assetPrefix: '/vibrantvalleyhighschool/',
+   assetPrefix: './',
   };
 
   module.exports = nextConfig;
