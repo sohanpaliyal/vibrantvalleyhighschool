@@ -349,7 +349,7 @@ const Contact = () => {
               <MapPin className="w-16 h-16 mx-auto mb-4" />
               <p className="text-lg font-medium">Interactive Map</p>
               <p className="text-sm">
-                123 Education Street, Learning City, State 123456
+               Vibrant Campus jawai bandh road sumerpur dist pali rajasthan
               </p>
             </div>
           </div>
