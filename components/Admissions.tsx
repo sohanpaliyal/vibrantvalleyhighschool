@@ -269,14 +269,14 @@ const Admissions = () => {
               whileHover={{ scale: 1.05 }}
             >
               <Phone className="w-6 h-6" />
-              <span>+91 98765 43210</span>
+              <span>+91 9636937172</span>
             </motion.div>
             <motion.div
               className="flex items-center justify-center space-x-3"
               whileHover={{ scale: 1.05 }}
             >
               <Mail className="w-6 h-6" />
-              <span>admissions@vvhs.edu</span>
+              <span>vibrant.sumerpur@gmail.com</span>
             </motion.div>
             <motion.div
               className="flex items-center justify-center space-x-3"
