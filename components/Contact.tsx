@@ -62,19 +62,19 @@ const Contact = () => {
     {
       icon: Phone,
       title: 'Phone',
-      details: ['+91 98765 43210', '+91 98765 43211'],
+      details: ['02933299101', '+91 9636937172'],
       color: 'from-blue-500 to-blue-600',
     },
     {
       icon: Mail,
       title: 'Email',
-      details: ['info@vibrantvalleyhighschool.com', 'admissions@vvhs.edu'],
+      details: ['vibrant.sumerpur@gmail.com'],
       color: 'from-green-500 to-green-600',
     },
     {
       icon: MapPin,
       title: 'Address',
-      details: ['123 Education Street', 'Learning City, State 123456'],
+      details: ['Vibrant Campus jawai bandh road sumerpur dist pali rajasthan'],
       color: 'from-purple-500 to-purple-600',
     },
     {
