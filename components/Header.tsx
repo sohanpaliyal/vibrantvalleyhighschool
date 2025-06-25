@@ -35,16 +35,16 @@ const Header = () => {
           <div className="flex sm:items-center sm:gap-6 gap-2 sm:flex-row flex-col items-start">
             <div className="flex items-center gap-2">
               <Phone className="w-4 h-4" />
-              <span>+91 98765 43210</span>
+              <span>+91 9636937172</span>
             </div>
             <div className="flex items-center gap-2">
               <Mail className="w-4 h-4" />
-              <span>info@vibrantvalleyhighschool.com</span>
+              <span>vibrant.sumerpur@gmail.com</span>
             </div>
           </div>
           <div className="flex items-center gap-2">
             <MapPin className="w-4 h-4" />
-            <span>123 Education Street, Learning City</span>
+            <span>Vibrant Campus jawai bandh road sumerpur dist pali rajasthan</span>
           </div>
         </div>
       </div>
